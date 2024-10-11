@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Datang di Web Dema Ganteng</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+            color: #333;
+        }
+
+        .welcome-container {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .welcome-title {
+            font-size: 2.5em;
+            margin: 0 0 10px;
+            color: #2C3E50;
+        }
+
+        .welcome-text {
+            font-size: 1.2em;
+            color: #34495E;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="welcome-container">
+        <h1 class="welcome-title">Selamat Datang di Web Dema Ganteng</h1>
+        <p class="welcome-text">Terima kasih telah mengunjungi website kami. Kami harap Anda menikmati waktu Anda di sini!</p>
+    </div>
+
+</body>
+</html>
